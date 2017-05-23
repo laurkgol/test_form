@@ -24,6 +24,6 @@ e. 2 Yes/No Preferences
 
 f. Once you submit the form, hide the form and display a “Thank You” message
 
-4. Test to ensure form is in the correct layout in modern browser and your cell phone (list cell phone model
+4. Test to ensure form is in the correct layout in modern browser and your cell phone (iPhone 6)
 
 5. Submit test by responding and providing the link to the Github project
