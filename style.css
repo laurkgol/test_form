@@ -1,0 +1,26 @@
+body{
+  display: flex;
+  /*flex-direction: column;*/
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: hsla(261, 8%, 50%, 0.43);
+  font-family: sans-serif;
+}
+
+h1{
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+
+.form{
+  padding: 20px;
+  background-color: hsla(261, 8%, 50%, 1);
+}
+
+br{
+  line-height:30px;
+}
