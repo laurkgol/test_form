@@ -1,26 +1,38 @@
 body{
   display: flex;
-  /*flex-direction: column;*/
   justify-content: center;
   align-content: center;
-  align-items: center;
   background-color: hsla(261, 8%, 50%, 0.43);
   font-family: sans-serif;
+  height: 100vh;
 }
 
 h1{
   font-family: 'Anton', sans-serif;
-  text-align: center;
 }
-h2{
+h1, h2{
   text-align: center;
 }
 
-.form{
+.container{
   padding: 20px;
   background-color: hsla(261, 8%, 50%, 1);
+  align-self: center;
 }
 
 br{
-  line-height:30px;
+  line-height: 30px;
 }
+
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    body,input,h1,h2,select,button{
+      font-size: 40px;
+    }
+    br{
+      line-height: 70px;
+    }
+  }
